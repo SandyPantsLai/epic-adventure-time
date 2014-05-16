@@ -37,6 +37,15 @@ gem 'bootstrap-sass'
 
 gem 'devise'
 
+gem 'twilio-ruby'
+
+# Run these from command line to see app visualization:
+# railroady -o models.dot -M
+# dot -Tpng models.dot > models.png
+group :development, :test do
+    gem 'railroady'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

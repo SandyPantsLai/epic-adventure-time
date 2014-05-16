@@ -1,0 +1,6 @@
+digraph controllers_diagram {
+	graph[overlap=false, splines=true]
+	"ApplicationController" [shape=Mrecord, label="{ApplicationController|\l|\l|_layout\l}"]
+	"IdeasController" [shape=Mrecord, label="{IdeasController|create\ldestroy\ledit\lindex\lnew\lshow\lupdate\l|\l|_layout\lidea_params\lset_idea\l}"]
+	"PagesController" [shape=Mrecord, label="{PagesController|about\lhome\l|\l|_layout\l}"]
+}

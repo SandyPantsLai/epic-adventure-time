@@ -5,7 +5,7 @@ $font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height:   45px;
 $navbar-default-bg:  white;
 $navbar-default-brand-color:  #e74c3c;
-$brand-primary:  #1abc9c;
+$brand-primary:  white; // colour of links (Show, Edit, etc.)
 $jumbotron-bg:  white;
 
 @import 'bootstrap';
@@ -20,5 +20,5 @@ $jumbotron-bg:  white;
 
 .random {
 	background-color: #e74c3c;
-	color: #f1c40f;
+	color: #86C620; // this is the colour of the arrow of the Random tab
 }

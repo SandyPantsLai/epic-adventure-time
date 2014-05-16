@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @idea.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @idea.description %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= link_to @idea.link, @idea.link %>
+</p>
+
+<p>
+  <%= link_to 'Send SMS', send_sms_path(@idea.id) %>
+</p>
+
+<% if @idea.user == current_user %>
+	<%= link_to 'Edit', edit_idea_path(@idea) %>
+<% end %> 
+<%= link_to 'Back', ideas_path %>
